@@ -1,1 +1,40 @@
-// Navigation code here
+.top {
+    display: flex;
+    background-color: ghostwhite;
+    flex-flow: row wrap;
+    padding: 1%;
+
+    div.title {
+        .setup();
+    }
+
+    .title {
+        font-size: 4rem;
+    }
+    
+    nav {
+        .setup(space-between, 100%);
+        padding-right: 31%;
+        padding-left: 31%;
+        margin-top: 2%;
+        @media @tablet {
+            padding-top: 2%;
+            padding-left: 7.5%;
+            padding-right: 7.5%;
+            justify-content: space-around;
+            padding-bottom: 2%;
+        }
+        @media @phone{
+            padding-top: 2%;
+            padding-left: 7.5%;
+            padding-right: 7.5%;
+            justify-content: space-around;
+            padding-bottom: 2%;
+        }
+        .toolbar {
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: black;
+        }
+    }
+  }
